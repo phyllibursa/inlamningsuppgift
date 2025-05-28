@@ -31,4 +31,13 @@ public class TextStatsTest {
         assertEquals(0, stats.getTotalChars());
     }
 
+@Test
+    public void testWordCountAndLongestWord() {
+        TextStats stats = new TextStats();
+        stats.addLine("Vilket är världens svåraste ord?");
+
+        assertEquals(1, stats.getTotalLines());
+        assertEquals(5, stats.getTotalWords());
+        assertEquals("världens", stats.getLongestWord());
+}
     }

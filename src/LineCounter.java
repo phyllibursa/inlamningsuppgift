@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-//Del 2
+//Del 2 (Detta är en main-klass och inte logik-klass)
 
 public class LineCounter { //Jag har döpt Class till LineCounter
 
